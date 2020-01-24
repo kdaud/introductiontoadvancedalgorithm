@@ -28,6 +28,7 @@ public class Mentor {
 	private static int myNumber() {
 		Random rad = new Random();
 		System.out.println("Success!");
+		System.out.println();
 		int num = rad.nextInt(87);
 		if (num % 2 == 0) {
 			System.out.println("Its a multiple of 2");
