@@ -12,9 +12,15 @@ import java.util.Random;
 public class Mentor {
 	private static String  name;
 	
+	private static int age;
+	
+
+	private static boolean eligibilty;
+	
 	//private Date mybirthday;
 	//private Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) {
+		mycall();
 		System.out.println("John speak");
 		
 		System.out.println(toString("Google Code-in 2019 with OpenMRS"));
@@ -35,6 +41,12 @@ public class Mentor {
 			System.out.println("Its a multiple of 2");
 		}
 		return num;
+	}
+	
+	public static void mycall() {
+		for (char ch = 'a'; ch <= 'Z'; ch++) {
+			System.out.print(ch + " ");
+		}
 	}
 
 
