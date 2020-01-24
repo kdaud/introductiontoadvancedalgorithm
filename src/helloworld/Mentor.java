@@ -20,6 +20,7 @@ public class Mentor {
 	//private Date mybirthday;
 	//private Scanner scanner = new Scanner(System.in);
 	public static void main(String[] args) {
+		
 		mycall();
 		System.out.println("John speak");
 		
@@ -44,10 +45,12 @@ public class Mentor {
 	}
 	
 	public static void mycall() {
-		for (char ch = 'a'; ch <= 'Z'; ch++) {
+		for (char ch = 'A'; ch <= 'z'; ch++) {
 			System.out.print(ch + " ");
 		}
 	}
 
-
+	public void myNum() {
+		
+	}
 }
