@@ -30,7 +30,9 @@ public class Mentor {
 		System.out.println("Success!");
 		System.out.println();
 		int num = rad.nextInt(87);
+		rad.nextBoolean();
 		if (num % 2 == 0) {
+			//int ss =6
 			System.out.println("Its a multiple of 2");
 		}
 		return num;
